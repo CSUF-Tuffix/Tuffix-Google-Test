@@ -5,11 +5,11 @@ int main()
 {
   const double CA_TAX = 0.075;
   const int TIP_DIVISOR = 100;
-  double meal_cost;
-  double tip_percentage;
-  double taxes;
-  double tip;
-  double total;
+  double meal_cost = 0;
+  double tip_percentage = 0;
+  double taxes = 0;
+  double tip = 0;
+  double total = 0;
 
   std::cout << "Please input meal cost: ";
   std::cin >> meal_cost;
